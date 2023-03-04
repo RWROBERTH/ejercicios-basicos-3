@@ -1,0 +1,18 @@
+Algoritmo mayor_a_sueldo_minimo
+	Definir sueldo, sueldominimo como real
+	//definir la  variable
+	sueldominimo=2250
+	Escribir "Escribir tu sueldo en bolivianos"
+	Leer sueldo
+	Limpiar Pantalla
+	Si sueldo>sueldominimo Entonces
+		Escribir "Salario minimo: ", sueldominimo, " bs"
+		Escribir "sueldo: ", sueldo, " bs"
+		Escribir "Tú sueldo es mayor al salario minimo nacional"
+	SiNo
+		Escribir "Salario minimo: ", sueldominimo, " bs"
+		Escribir "sueldo: ", sueldo, " bs"
+		Escribir "Tú sueldo es menor al salario minimo nacional"
+	Fin Si
+	Escribir "Gracias"
+FinAlgoritmo
