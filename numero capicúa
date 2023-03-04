@@ -1,0 +1,14 @@
+Algoritmo numero_capicua
+	Definir numer1,numer2,numer3 Como Real
+	Repetir
+		Escribir 'Escribe un número de tres cifras'
+		Leer numer1
+	Hasta Que numer1>99 
+	numer2 <- trunc(numer1/100)
+	numer3 <- numer1 MOD 10
+	Si numer2=numer3 Entonces
+		Escribir 'El número ',numer1,' es un número capicúa.'
+	SiNo
+		Escribir 'El número ',numer1,' no es un número capicúa.'
+	FinSi
+FinAlgoritmo
