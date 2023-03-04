@@ -1,0 +1,16 @@
+Algoritmo mayor_a_500
+	Definir numer1, numer2, numer3 como real
+	//definir la  variable
+	numer2=500
+	Escribir "Ingrese un número"
+	Escribir "Sí el número es mayor a 500 se calculará en 18%"
+	Leer numer1
+	si numer1>numer2 Entonces
+		numer3=numer1*0.18
+		Escribir "El número ", numer1, " es mayor a ", numer2
+		Escribir "El 18% de ", numer1, " es: ", numer3
+	SiNo
+		Escribir "El número ", numer1, " es menor a ", numer2
+	FinSi
+	Escribir "Gracias"
+FinAlgoritmo
