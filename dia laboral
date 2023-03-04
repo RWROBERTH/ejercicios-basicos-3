@@ -1,0 +1,23 @@
+Algoritmo dia_laboral
+	Definir dia Como Caracter
+	Escribir "Escribe el dia de la semana"
+	leer dia
+	segun dia Hacer
+		"lunes":
+			Escribir "El día ", dia, " ,es un día laboral"
+		"martes":
+			Escribir "El día ", dia, " ,es un día laboral"
+		"miercoles":
+			Escribir "El día ", dia, " ,es un día laboral"
+		"jueves":
+			Escribir "El día ", dia, " ,es un día laboral"
+		"viernes":
+			Escribir "El día ", dia, " ,es un día laboral"
+		"sabado":
+			Escribir "El día ", dia, " ,es un día laboral"
+		"domingo":
+			Escribir "El día ", dia, " , no es un día laboral"
+		De Otro Modo:
+			Escribir "Opción no valida"
+	FinSegun
+FinAlgoritmo
