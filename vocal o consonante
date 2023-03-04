@@ -1,0 +1,21 @@
+Algoritmo vocal_o_consonante
+	Definir letra1 Como Caracter
+	Escribir "Ingrese una letra"
+	Escribir "Definirá si es consonante o vocal"
+	leer letra1
+	Segun letra1 hacer
+		"a":
+			Escribir "la letra ", letra1, " es vocal"
+		"e":
+			Escribir "la letra ", letra1, " es vocal"
+		"i":
+			Escribir "la letra ", letra1, " es vocal"
+		"o":
+			Escribir "la letra ", letra1, " es vocal"
+		"u":
+			Escribir "la letra ", letra1, " es vocal"
+		De Otro Modo:
+			Escribir "la letra ", letra1, " es consonante"
+	FinSegun
+	Escribir "Gracias"
+FinAlgoritmo
